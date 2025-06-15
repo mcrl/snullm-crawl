@@ -1,0 +1,19 @@
+# IP List: We write private IPs for example. You might want to change to your own Public IPs
+# you may use any number of IPs as you want
+# If no IPs are specified, all available IPs will be used.
+ips:
+- 192.168.0.101:1
+- 192.168.0.102:1
+- 192.168.0.103:1
+# offices: List of news channels to scrape 
+offices:
+- "example_news_channel_1"
+- "news2"
+- "news_office_3"
+excludes:
+- "example_news_channel_2"
+# start, end: Specify the date range for scraping. YYYYMMDD format.
+start: '20241101'
+end: '20241130'
+save_id: "daumnews"
+save_dir: "data/daumnews/jsonl"

@@ -1,0 +1,13 @@
+# IP List: We write private IPs for example. You might want to change to your own Public IPs
+# We only support one IP for daumcafe cafelist example.
+# If no IPs are specified, all available IPs will be used.
+ips:
+- 192.168.0.101:900
+save_id: "daumcafe_id"
+save_dir: "data/daumcafe_id"
+query: "site:cafe.daum.net"
+start: '20000101'
+end: '20121231'
+default_interval: 900
+google_api_key: "<your_google_api_key>"
+google_search_engine: "<your_google_search_engine>"

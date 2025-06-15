@@ -1,0 +1,17 @@
+# IP List: We write private IPs for example. You might want to change to your own Public IPs
+# you may use any number of IPs as you want
+# If no IPs are specified, all available IPs will be used.
+ips:
+- 192.168.0.101:1
+- 192.168.0.102:1
+- 192.168.0.103:1
+- 192.168.0.104:1
+- 192.168.0.105:1
+- 192.168.0.106:1
+- 192.168.0.107:1
+- 192.168.0.108:1
+- 192.168.0.109:1
+- 192.168.0.110:1
+userlist: "configs/kin/kin_userlist_sample.txt"
+save_id: "kin"
+save_dir: "data/kin_merged"

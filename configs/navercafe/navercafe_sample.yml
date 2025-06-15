@@ -1,0 +1,12 @@
+# IP List: We write private IPs for example. You might want to change to your own Public IPs
+# you may use any number of IPs as you want
+# If no IPs are specified, all available IPs will be used.
+ips:
+- 192.168.0.101:1
+- 192.168.0.102:1
+- 192.168.0.103:1
+- 192.168.0.104:1
+# cafelistt: List of Naver Cafes to scrape
+cafelist: "configs/navercafe/navercafe_sample.tsv"
+save_id: "navercafe"
+save_dir: "data/navercafe_merged"

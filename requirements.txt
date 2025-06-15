@@ -1,0 +1,10 @@
+slack_sdk
+pyyaml
+beautifulsoup4
+brotli
+requests
+python-dateutil
+pandas
+filelock
+tqdm
+lxml

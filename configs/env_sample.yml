@@ -1,0 +1,6 @@
+slack:
+  webhook_url: "https://hooks.slack.com/services/your/webhook/url"
+
+# IP List: if some of your IPs cannot be used for internet access, specify only the IPs that can be used.
+ips:
+  - 192.168.0.20

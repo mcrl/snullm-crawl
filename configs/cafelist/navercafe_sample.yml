@@ -1,0 +1,11 @@
+# IP List: We write private IPs for example. You might want to change to your own Public IPs
+# you may use any number of IPs as you want
+# If no IPs are specified, all available IPs will be used.
+ips:
+- 192.168.0.101:1
+- 192.168.0.102:1
+- 192.168.0.103:1
+- 192.168.0.104:1
+save_id: "navercafe_id"
+save_dir: "data/navercafe_id"
+
