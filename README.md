@@ -1,4 +1,4 @@
-# SNULLM-Crawl
+# Thunder-LLM-Crawl
 
 ## Setup
 
@@ -14,6 +14,8 @@ sudo tee /etc/apt/sources.list.d/google-chrome.list
 sudo apt update
 sudo apt install google-chrome-stable -y
 
+git clone https://github.com/mcrl/Thunder-LLM-crawl.git
+cd Thunder-LLM-crawl
 pip install -r requirements.txt
 
 python scripts/install/install_chromedriver.py
